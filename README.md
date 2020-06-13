@@ -3,13 +3,11 @@
 ## Contents
 
 1. [Short description](#short-description)
-1. [Demo video](#demo-video)
+1. [Pitch video](#pitch-video)
 1. [The architecture](#the-architecture)
 1. [Long description](#long-description)
-1. [Project roadmap](#project-roadmap)
 1. [Getting started](#getting-started)
 1. [Running the tests](#running-the-tests)
-1. [Live demo](#live-demo)
 1. [Built with](#built-with)
 1. [Contributing](#contributing)
 1. [Versioning](#versioning)
@@ -47,10 +45,6 @@ Detection is key in eliminating the threat of a huge fire. Thus, we decided to c
 ## Long description
 
 [More detail is available here](DESCRIPTION.md)
-
-## Project roadmap
-
-![Roadmap](roadmap.jpg) (havnt do)
 
 ## Getting started
 
@@ -112,10 +106,6 @@ npm install eslint --save-dev
 npx eslint --init
 npx eslint sample-file.js
 ```
-
-## Live demo
-
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
 
 ## Built with
 
