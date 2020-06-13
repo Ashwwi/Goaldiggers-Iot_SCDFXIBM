@@ -31,7 +31,7 @@ Technology can play a big part in fire detection. Machines are faster than the a
 
 Detection is key in eliminating the threat of a huge fire. Thus, we decided to create a machine learning model that is able to detect fires. The model is able to identify when a fire has started and broadcast this critical information to the authoratives in a matter of seconds. 
 
-## Demo video
+## Pitch video
 
 [![Watch the video](put image here)](video link here) (need change)
 
@@ -39,8 +39,8 @@ Detection is key in eliminating the threat of a huge fire. Thus, we decided to c
 
 ![Video transcription/translation app](image here)
 
-1. Fire is detected by the machine?
-2. Machine broadcast this information to IBM Watson
+1. Fire is detected by the device?
+2. Device broadcast this information to IBM Watson
 3. Notification is send to authoratives
 4. (Should we add that residents can get notfication as well idk)
 
