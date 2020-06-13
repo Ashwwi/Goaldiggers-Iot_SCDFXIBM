@@ -1,5 +1,5 @@
 # Fire Detection
-
+![Image]()
 ## Contents
 
 1. [Short description](#short-description)
@@ -122,7 +122,7 @@ You can find a running system to test at [callforcode.mybluemix.net](http://call
 * [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
 * [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
 * [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [ANACONDA](https://www.anaconda.com/) - Python
+* [Anaconda](https://www.anaconda.com/) - Python
 
 ## Contributing
 
@@ -134,7 +134,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Ashwin Dinesh** - *Initial work* - 
+* **Lim Zi Xiong** - *Initial work* - 
+* **Rusyaidi Bin Abdul Rashid** - *Initial work* - 
+* **Chew Liang Zhi** - *Initial work* - 
 
 See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
 
