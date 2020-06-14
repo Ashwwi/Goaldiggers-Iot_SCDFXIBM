@@ -152,17 +152,14 @@ We use IBM Watson to connect the esp 32 to cloud and then to send data. The reas
 
 ## Authors
 
-* **Ashwin Dinesh** - *Initial work* - 
-* **Lim Zi Xiong** - *Initial work* - 
-* **Rusyaidi Bin Abdul Rashid** - *Initial work* - 
-* **Chew Liang Zhi** - *Initial work* - 
-
-See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
+* **Ashwin Dinesh**  
+* **Lim Zi Xiong**  
+* **Rusyaidi Bin Abdul Rashid**  
+* **Chew Liang Zhi**  
 
 ## License
 
 This project is licensed under the Apache 2 License - see the [LICENSE](LICENSE) file for details
 
-## Acknowledgments
 
 
