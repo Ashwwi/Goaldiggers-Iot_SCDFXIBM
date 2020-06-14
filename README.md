@@ -17,7 +17,7 @@
 
 ### What's the problem?
 
-Fire occurs everywhere in the world. Fires can have massive impact on the environment if not taken care of swiftly. (Needs work)
+Fire occurs everywhere in the world. They are unavoidable but preventable. As such, fire prevention measures are taken to reduce the risk. However when fires occur, they can have a detrimental impact on the environment if not taken care of swiftly. As such reactive solutions  (Needs work)
 
 ### How can technology help?
 
@@ -35,10 +35,10 @@ Detection is key in eliminating the threat of a huge fire. Thus, we decided to c
 
 ![Video transcription/translation app](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/Fire%20Detection.JPG)
 
-1. Fire is detected by the device?
-2. Device broadcast this information to IBM Watson
-3. Notification is send to authoratives
-4. (Should we add that residents can get notfication as well idk)
+1. Fire is first detected by the Sipeed Module
+2. The information is then send to an esp32 connected to the Sipeed Module
+3. The esp32 will send the data to IBM Watson 
+4. IBM Watson will send a push notification to the authoratives
 
 ## Long description
 
