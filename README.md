@@ -18,9 +18,7 @@
 
 ### What's the problem?
 
-Punggol Digital District is powered by high technology such as the use of Open Digital Platform that integrates various smart city solutions together. Hence the cost of creating such places is high, thus if there's any chaos such as fire outbreaks/ riots, the cost of repairment will be high too. As such, fire/riot detection is important to keep the cost low and keep the neighbourhood safe.
-
-Fire/riot detection also allows the SCDF officers more time to prepare and equip themselves with the proper gear. This allows them to be better suited at undertaking the task at hand. Furthermore, faster reactions can be vital in minimizing damage done by fires or riots.
+Punggol Digital District is identified to be the testbed for technology test cases, and realization of the Open Digital Platform (ODP). We aim to develop a usecase to demonstrate the how-to with the ODP. Our usecase consist of sensors integrated on ESP32, IBM Cloud, and AI at the edge. We aspire to use AI to detect anomalies in the communities such as fire hazard, rioting, loitering, such that the data can be fed to the system we have built on the IBM Cloud. SCDF personnel then able to extract the necessary data points for resource planning.
 
 ### How can technology help?
 
@@ -36,7 +34,7 @@ Detection is key in eliminating the threat of a huge fire. Thus, our group decid
 
 ## The architecture
 
-![Video transcription/translation app](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/Architecture.JPG)
+![Video transcription/translation app](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/Architecture1.JPG)
 
 1. Fire is first detected by the Sipeed Module
 2. The information is then send to an esp32 connected to the Sipeed Module
