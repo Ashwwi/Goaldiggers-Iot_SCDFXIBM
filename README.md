@@ -28,7 +28,7 @@ Our solution is a intergrated iot solution to act as preventive measure using ma
 
 ## Pitch video
 
-[![Watch the video](put image here)](video link here) (need change)
+[![Watch the video]](https://www.youtube.com/watch?v=tFtTNHVMbq0)
 
 ## The architecture
 
