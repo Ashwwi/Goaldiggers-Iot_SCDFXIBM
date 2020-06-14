@@ -8,11 +8,9 @@
 1. [The architecture](#the-architecture)
 1. [Long description](#long-description)
 1. [Getting started](#getting-started)
-1. [Running the tests](#running-the-tests)
 1. [Built with](#built-with)
 1. [Authors](#authors)
 1. [License](#license)
-1. [Acknowledgments](#acknowledgments)
 
 ## Short description
 
@@ -34,7 +32,7 @@ Prevention is better than cure, we hope the smart sensors installed is able to d
 
 ## The architecture
 
-![Video transcription/translation app](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/Architecture1.JPG)
+![Video transcription/translation app](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/Architecture2.JPG)
 
 1. Fire is first detected by the Sipeed Module
 2. The information is then send to an esp32 connected to the Sipeed Module
@@ -77,58 +75,22 @@ Run MaixPy Face Recognition Script with MaixPy IDE
   1. Install the MaixPy IDE, see [MiaxPy IDE](https://blog.sipeed.com/p/612.html) for Details.
   2. Get face recognition script [demo_face_recognition.py](https://github.com/sipeed/MaixPy_scripts/blob/master/machine_vision/demo_face_recognition.py)
   3. Use MaixPy IDE to open the face recognition script, connect the development board, upload the script to the development board, you can see that face recognition has been successfully run on MaixPy. Users can modify our identification script to create more interesting applications.
-The Use MaixPy IDE to Open at The face Recognition Script, Connect at The Development Board, the Upload at The Script to at The Development Board, and you CAN See that at The face Recognition has been successfully RUN ON MaixPy. The Users CAN the Modify Our Recognition Script to the Create More interesting Applications.
-
-
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why, if you were using something like `mocha` for instnance
-
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
-
-### And coding style tests
-
-Explain what these tests test and why, if you chose `eslint` for example
-
-```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
-```
 
 ## Built with
 
 ### Sipeed M1
 
-Sipeed M1 is an open source AI development kit. It is useful in image recognition and any AI application. At the heart of the Sipeed M1 platform is the AI chip K210 by Kendryte, a dual-core RISC-V with an FPU. It serves as the core unit and dual-core processing with independent FPU, 64-bit CPU and 8M in-built SRAM. With a 400Mhz adjustable nominal frequency it supports multiplication, division and square root operation. The Sipeed M1 also integrates Micropython to make development pretty smooth and straightforward. With its edge computing capabilities, it can improve response time.
+Sipeed M1 is an open source AI development kit. It is useful in image recognition and any AI application. At the heart of the Sipeed M1 platform is the AI chip K210 by Kendryte, a dual-core RISC-V with an FPU. It serves as the core unit and dual-core processing with independent FPU, 64-bit CPU and 8M in-built SRAM. With a 400Mhz adjustable nominal frequency it supports multiplication, division and square root operation. The Sipeed M1 also integrates Micropython to make development pretty smooth and straightforward. With its edge computing capabilities, it can improve response time which is important when dealing with events such as arsoning, rioting, illegal gathering.
 
-The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision and machine hearing. Using TSMC’s ultra-low-power 28-nm advanced process with dual-core 64-bit processors for better power efficiency, stability and reliability. The SoC strives for ”zero threshold” development and to be deployable in the user’s products in the shortest possible time, giving the product artificial intelligence. Kendryte K210 is intended for the AI and IoT markets, but is also a high-performance MCU. Kendryte in Chinese means researching intelligence. The main application field of this chip is in the field of Internet of Things. The chip provides AI solutions to add intelligence to this.
-- Machine Vision
-• Machine Hearing 
-• Better low power vision processing speed and accuracy 
-• KPU high performance Convolutional Neural Network (CNN) hardware accelerator 
-• Advanced TSMC 28nm process, temperature range -40°C to 125°C
-• Firmware encryption support 
-• Unique programmable IO array maximises design flexibility 
-• Low voltage, reduced power consumption compared to other systems with the same processing power 
-• 3.3V/1.8V dual voltage IO support eliminates need for level shifters
+The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision and machine hearing using TSMC’s ultra-low-power 28-nm advanced process with dual-core 64-bit processors for better power efficiency, stability and reliability. 
 
 1.1   AI solution 
 
-- 1.1.1 Machine Vision With machine vision capabilities, the Kendryte K210 is a zero-threshold embedded machine vision solution. It can perform convolutional neural network calculations with low power consumption. Capabilities: • Object Detection • Image Classification • Face Detection and Recognition • Obtaining size and coordinates of target in real time • Obtaining a type of detected target in real time 
+- 1.1.1 Machine Vision With machine vision capabilities, the Kendryte K210 can perform convolutional neural network calculations with low power consumption. It is capable of object detection, image classification and face recognition.
 
-- 1.1.2 Machine Hearing The Kendryte K210 has machine hearing capabilities. The chip comes with a high performance microphone array audio processor for real-time source orientation and beamforming. Capabilities: • Sound source orientation detection • Sound Field Imaging • Beamforming • Voice Wake-Up • Speech Recognition 
+- 1.1.2 Machine Hearing The Kendryte K210 has machine hearing capabilities. The chip comes with a high performance microphone array audio processor for real-time source orientation and beamforming. 
 
-- 1.1.3 Hybrid Audio/Vision Solution The Kendryte K210 combines machine vision and machine hearing to provide even more powerful features. In the application, both the sound source localization and the sound field imaging can be used to assist the machine vision to track the target, and the general target detection can obtain the target’s orientation and then assist the machine to perform the beamforming of the source. Additionally, the direction of the person can be obtained by the image transmitted from the camera, so that the microphone array is directed to the person by beamforming. At the same time, the direction of speech can be determined according to the microphone array, and the camera is rotated to point to the person.
+- 1.1.3 Hybrid Audio/Vision Solution The Kendryte K210 combines machine vision and machine hearing to provide even more powerful features. In the application, both the sound source localization and the sound field imaging can be used to assist the machine vision to track the target. This allows us to detect the person's orientation.
 
 ### ESP32
 
@@ -148,7 +110,7 @@ Browser Base Flow Editing
 We use IBM Watson to connect the esp 32 to cloud and then to send data. The reason why we use IBM Watson is because these platforms are more secure and offer many useful services, from getting data to analyse it using Machine learning algorithms. 
 
 ### Additional devices
-As this is a prove of concept, many more IOT devices can be connected to allow us to track more data an thus send more vital data to the authoritives. 
+As this is a prove of concept, many more IOT devices can be connected to allow us to track more data and thus send more vital data to the authoritives. 
 
 ## Authors
 
