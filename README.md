@@ -17,15 +17,19 @@
 
 ### What's the problem?
 
-Fire occurs everywhere in the world. They are unavoidable but preventable. As such, fire prevention measures are taken to reduce the risk. However when fires occur, they can have a detrimental impact on the environment if not taken care of swiftly. As such reactive solutions  (Needs work)
+Punggol Digital District is powered by high technology such as the use of Open Digital Platform that integrates various smart city solutions together. Hence the cost of creating such places is high, thus if there's any chaos such as fire outbreaks/ riots, the cost of repairment will be high too. As such, fire/riot detection is important to keep the cost low and keep the neighbourhood safe.
+
+Fire/riot detection also allows the SCDF officers more time to prepare and equip themselves with the proper gear. This allows them to be better suited at undertaking the task at hand. Furthermore, faster reactions can be vital in minimizing damage done by fires or riots.
+
+our group decided to create a device with the help of AI On Edge to help to detect for fire and riots. Due to the sheer speed of edge devices, it can quickly receive and send data to IBM cloud to alert the SCDF officials.
 
 ### How can technology help?
 
-Technology can play a big part in fire detection. Machines are faster than the average human reaction thus utilizing that speed can be beneficial in detecting fires. (Needs work)
+Technologies are able to play a big part in fire detection. Machines are faster than the average human reaction thus utilizing that speed can be beneficial in detecting fires. Our group decided to equip devices capable of detecting fires at many locations. The sipeed m1 module is used as our device as it was compact, easy to install and was able to achieve our goals. (Needs work)
 
 ### The idea
 
-Detection is key in eliminating the threat of a huge fire. Thus, we decided to create a machine learning model that is able to detect fires. The model is able to identify when a fire has started and broadcast this critical information to the authoratives in a matter of seconds. 
+Detection is key in eliminating the threat of a huge fire. Thus, our group decided to create a device with the help of AI On Edge to help to detect for fire and riots. Due to the sheer speed of edge devices, it can quickly receive and send data to IBM cloud to alert the SCDF officials.
 
 ## Pitch video
 
@@ -33,7 +37,7 @@ Detection is key in eliminating the threat of a huge fire. Thus, we decided to c
 
 ## The architecture
 
-![Video transcription/translation app](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/Fire%20Detection.JPG)
+![Video transcription/translation app](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/Architecture.JPG)
 
 1. Fire is first detected by the Sipeed Module
 2. The information is then send to an esp32 connected to the Sipeed Module
