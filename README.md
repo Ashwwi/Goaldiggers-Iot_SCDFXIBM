@@ -24,7 +24,7 @@ Fire/riot detection also allows the SCDF officers more time to prepare and equip
 
 ### How can technology help?
 
-Technologies are able to play a big part in fire detection. Machines are faster than the average human reaction thus utilizing that speed can be beneficial in detecting fires. Our group decided to equip devices capable of detecting fires at many locations. The sipeed m1 module is used as our device as it was compact, easy to install and was able to achieve our goals. (Needs work)
+Technologies are able to play a big part in fire detection. Machines are faster than the average human reaction thus utilizing that speed can be beneficial in detecting fires. Our group decided to equip devices capable of detecting fires at many locations. The sipeed m1 module is used as our device as it was compact, easy to install and was able to achieve our goals.
 
 ### The idea
 
