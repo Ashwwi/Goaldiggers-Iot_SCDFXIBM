@@ -33,7 +33,7 @@ Detection is key in eliminating the threat of a huge fire. Thus, we decided to c
 
 ## The architecture
 
-![Video transcription/translation app](image here)
+![Video transcription/translation app](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/Fire%20Detection.JPG)
 
 1. Fire is detected by the device?
 2. Device broadcast this information to IBM Watson
