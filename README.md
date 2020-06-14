@@ -65,13 +65,19 @@ Download face recognition model from Maixhub model platform
   1. Visit the [Maixhub model platform](https://www.maixhub.com/) homepage, register and log in.
   2.	Select [MaixPy Face Recognition Model]
 (https://www.maixhub.com/index.php/index/index/detail/id/235) and click the download button.
-  3. 4.	Click Submit to obtain recognition model
+  3. Click Submit to obtain recognition model
   
 ### Step 5
 Burning face recognition model
-1. Use kflash_gui to flash the kfpkg model obtained in the previous step.
-2. After the burning is completed, the development board displays the MaixPy welcome interface.
+  1. Use kflash_gui to flash the kfpkg model obtained in the previous step.
+  2. After the burning is completed, the development board displays the MaixPy welcome interface.
 
+### Step 6
+Run MaixPy Face Recognition Script with MaixPy IDE
+  1. Install the MaixPy IDE, see [MiaxPy IDE](https://blog.sipeed.com/p/612.html) for Details.
+  2. Get face recognition script [demo_face_recognition.py](https://github.com/sipeed/MaixPy_scripts/blob/master/machine_vision/demo_face_recognition.py)
+  3. Use MaixPy IDE to open the face recognition script, connect the development board, upload the script to the development board, you can see that face recognition has been successfully run on MaixPy. Users can modify our identification script to create more interesting applications.
+The Use MaixPy IDE to Open at The face Recognition Script, Connect at The Development Board, the Upload at The Script to at The Development Board, and you CAN See that at The face Recognition has been successfully RUN ON MaixPy. The Users CAN the Modify Our Recognition Script to the Create More interesting Applications.
 
 
 
