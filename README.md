@@ -143,7 +143,7 @@ Primarily, it is a visual tool designed for the Internet of Things, but it can a
 Browser Base Flow Editing
 ![Browser Base Flow Editing](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/flow.jpg)
 
-###IBM Watson
+### IBM Watson
 We use IBM Watson to connect the esp 32 to cloud and then to send data. The reason why we use IBM Watson is because these platforms are more secure and offer many useful services, from getting data to analyse it using Machine learning algorithms. 
 
 ## Authors
