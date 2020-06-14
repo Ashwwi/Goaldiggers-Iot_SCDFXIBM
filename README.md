@@ -1,5 +1,6 @@
 # Fire Detection
-![Image]()
+![image](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/fire.png)
+
 ## Contents
 
 1. [Short description](#short-description)
