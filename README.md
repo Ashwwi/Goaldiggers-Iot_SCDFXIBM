@@ -16,15 +16,15 @@
 
 ### What's the problem?
 
-Punggol Digital District is identified to be the testbed for technology test cases, and realization of the Open Digital Platform (ODP). We aim to develop a usecase to demonstrate the how-to with the ODP. Our usecase consist of sensors integrated on ESP32, IBM Cloud, and AI at the edge. We aspire to use AI to detect anomalies in the communities such as fire hazard, rioting, loitering, such that the data can be fed to the system we have built on the IBM Cloud. SCDF personnel then able to extract the necessary data points for resource planning.
+Punggol Digital District is identified to be the testbed for technology test cases, and realization of the Open Digital Platform (ODP). We aim to develop a usecase to demonstrate the how-to with the ODP. Our usecase consist of sensors integrated on ESP32, IBM Cloud, and AI at the edge. We aspire to use AI to detect anomalies in the communities such as fire hazard, rioting, loitering, such that the data can be fed to the system we have built on the IBM Cloud. SCDF personnel then is able to extract the necessary data points for resource planning.
 
 ### How can technology help?
 
-IBM Cloud, sensors, ESP32, AI@Edge, are the necessary ingredients to help us as a nation to do more with less manpower. At the Command & Control Center, SCDF planner able to utilize the data to make decision, and strive towards optimal resource allocation. Prevention is better than cure, we hope the smart sensors installed able to deter irresonsible and anti social behaviour such as arsoning, rioting, illegal gathering.
+IBM Cloud, sensors, ESP32, AI@Edge, are the necessary ingredients to help us as a nation to do more with less manpower. At the Command & Control Center, SCDF planner able to utilize the data to make decision, and strive towards optimal resource allocation. Prevention is better than cure, we hope the smart sensors installed is able to deter irresonsible and anti social behaviour.
 
 ### The idea
 
-Prevention is better than cure, we hope the smart sensors installed is able to deter irresponsible and anti social behaviour such as arsoning, rioting, illegal gathering.
+Our solution is a intergrated iot solution to act as preventive measure using machine learning/ai and using sensor on the cloud to alert the various users
 
 ## Pitch video
 
@@ -34,10 +34,10 @@ Prevention is better than cure, we hope the smart sensors installed is able to d
 
 ![Video transcription/translation app](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/Architecture2.JPG)
 
-1. Hazard is first detected by the Sipeed Module
+1. Hazard is first detected by the Sipeed Module and sensors
 2. The information is then send to an esp32 connected to the Sipeed Module
-3. The esp32 will send the data to IBM Watson 
-4. IBM Watson will send a push notification to the authoratives
+3. The esp32 will send the data to IBM Cloud
+4. IBM Cloud
 
 ## Long description
 
