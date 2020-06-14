@@ -137,6 +137,9 @@ The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision and m
 
 The reason why we use [Esp32](https://techexplorations.com/guides/esp32/begin/esp32ard/#:~:text=The%20additional%20features%20that%20the,that%20alone%20is%20very%20desirable.&text=The%20ESP32%20dev%20kit%20is,board%20for%20a%20lower%20price.) is because it is better than Arduino. Esp32 not only can be used as an Arduino, it also provides Wireless Connectivity such as Wi-Fi and Bluetooth which most of the Arduino board does not provide. Micropython is used in conjunction with the board.
 
+### DHTT Sensor
+We will be using DHTT sensor to detect for the humidity and the Sipeed to detect for humans. If the detection of human is in a certain amount, it will be alerted to SPDF and the SPDF will check if there’s a riot going on. It works the same for the fire detection. Once detected fire, the data collected from the sensor and Sipeed will be sent to the IBM Cloud via Esp32. The data will then be send to the user which in our case, it is the SCDF people using IBM Bluemix push notification app. , alerting them about the scenarios so that they can prepare in advance.
+
 ### Node Red
 
 Node red is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways. It provides a browser-based editor that makes it easy to wire together flows using the wide range of nodes in the palette that can be deployed to its runtime in a single-click.
