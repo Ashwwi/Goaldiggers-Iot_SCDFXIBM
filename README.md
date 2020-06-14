@@ -34,7 +34,7 @@ Prevention is better than cure, we hope the smart sensors installed is able to d
 
 ![Video transcription/translation app](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/Architecture2.JPG)
 
-1. Fire is first detected by the Sipeed Module
+1. Hazard is first detected by the Sipeed Module
 2. The information is then send to an esp32 connected to the Sipeed Module
 3. The esp32 will send the data to IBM Watson 
 4. IBM Watson will send a push notification to the authoratives
