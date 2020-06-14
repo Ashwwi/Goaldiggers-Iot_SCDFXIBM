@@ -1,4 +1,4 @@
-# Fire Detection
+# SCDFxIBM IOT101
 ![image](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/fire.png)
 
 ## Contents
