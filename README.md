@@ -150,6 +150,9 @@ Browser Base Flow Editing
 ### IBM Watson
 We use IBM Watson to connect the esp 32 to cloud and then to send data. The reason why we use IBM Watson is because these platforms are more secure and offer many useful services, from getting data to analyse it using Machine learning algorithms. 
 
+### Additional devices
+As this is a prove of concept, many more IOT devices can be connected to allow us to track more data an thus send more vital data to the authoritives. 
+
 ## Authors
 
 * **Ashwin Dinesh**  
