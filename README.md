@@ -22,7 +22,7 @@ Punggol Digital District is identified to be the testbed for technology test cas
 
 ### How can technology help?
 
-Technologies are able to play a big part in fire detection. Machines are faster than the average human reaction thus utilizing that speed can be beneficial in detecting fires. Our group decided to equip devices capable of detecting fires at many locations. The sipeed m1 module is used as our device as it was compact, easy to install and was able to achieve our goals.
+IBM Cloud, sensors, ESP32, AI@Edge, are the necessary ingredients to help us as a nation to do more with less manpower. At the Command & Control Center, SCDF planner able to utilize the data to make decision, and strive towards optimal resource allocation. Prevention is better than cure, we hope the smart sensors installed able to deter irresonsible and anti social behaviour such as arsoning, rioting, illegal gathering.
 
 ### The idea
 
