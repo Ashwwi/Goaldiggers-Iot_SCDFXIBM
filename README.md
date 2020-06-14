@@ -21,8 +21,6 @@ Punggol Digital District is powered by high technology such as the use of Open D
 
 Fire/riot detection also allows the SCDF officers more time to prepare and equip themselves with the proper gear. This allows them to be better suited at undertaking the task at hand. Furthermore, faster reactions can be vital in minimizing damage done by fires or riots.
 
-our group decided to create a device with the help of AI On Edge to help to detect for fire and riots. Due to the sheer speed of edge devices, it can quickly receive and send data to IBM cloud to alert the SCDF officials.
-
 ### How can technology help?
 
 Technologies are able to play a big part in fire detection. Machines are faster than the average human reaction thus utilizing that speed can be beneficial in detecting fires. Our group decided to equip devices capable of detecting fires at many locations. The sipeed m1 module is used as our device as it was compact, easy to install and was able to achieve our goals. (Needs work)
