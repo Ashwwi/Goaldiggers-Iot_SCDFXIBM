@@ -26,7 +26,7 @@ IBM Cloud, sensors, ESP32, AI@Edge, are the necessary ingredients to help us as 
 
 ### The idea
 
-Detection is key in eliminating the threat of a huge fire. Thus, our group decided to create a device with the help of AI On Edge to help to detect for fire and riots. Due to the sheer speed of edge devices, it can quickly receive and send data to IBM cloud to alert the SCDF officials.
+Prevention is better than cure, we hope the smart sensors installed is able to deter irresponsible and anti social behaviour such as arsoning, rioting, illegal gathering.
 
 ## Pitch video
 
@@ -49,38 +49,31 @@ Detection is key in eliminating the threat of a huge fire. Thus, our group decid
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system. 
 
-### Prerequisites
+###  Step 1
+Machine code to GET key_gen Burn
+  1. First download key_gen firmware and unzip it to key_gen_v1.2.bin
+the Download AT at [The First key_gen Firmware](https://en.bbs.sipeed.com/uploads/default/original/1X/bca0832bed92a1ada63bd05327688784e2ef14d1.zip) and IT to the unzip at Thekey_gen_v1.2.bin
 
-What things you need to install the software and how to install them
+### Step 2
+Use [kflash_gui](https://github.com/sipeed/kflash_gui/releases/tag/v1.5.3) burn key_gen_v1.2.bin
 
-```bash
-dnf install wget
-wget http://www.example.com/install.sh
-bash install.sh
-```
+### Step 3
+![image](https://github.com/Ashwwi/Goaldiggers-Iot_SCDFXIBM/blob/master/resources/step3.png)
 
-### Installing
+### Step 4
+Download face recognition model from Maixhub model platform
+  1. Visit the [Maixhub model platform](https://www.maixhub.com/) homepage, register and log in.
+  2.	Select [MaixPy Face Recognition Model]
+(https://www.maixhub.com/index.php/index/index/detail/id/235) and click the download button.
+  3. 4.	Click Submit to obtain recognition model
+  
+### Step 5
+Burning face recognition model
+1. Use kflash_gui to flash the kfpkg model obtained in the previous step.
+2. After the burning is completed, the development board displays the MaixPy welcome interface.
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be, for example
 
-```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
-```
-
-And repeat
-
-```bash
-curl localhost:3000
-Thanks for looking at Code-and-Response!
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
